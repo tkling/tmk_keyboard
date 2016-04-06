@@ -28,7 +28,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │CAPSL│VolDw│ Up  │VolUp|Mute │     │     │     │Up   │PGDWN│PRTSC│SCLCK│PAUSE│     │█████│
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-│     │Left │Down │Right│Play │     │     │Left │Down │Right│     │     │▒▒▒▒▒│     │█████│
+│     │Left │Down │Right│Play │     │GRAVE│Left │Down │Right│     │     │▒▒▒▒▒│     │█████│
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 │     │▒▒▒▒▒│     │     │     │     │     │     │     │     │     │     │▒▒▒▒▒│     │▒▒▒▒▒│
 ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
@@ -38,7 +38,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(
          GRV,   F1,   F2,   F3,   F4,   F5,   F6,   F7,   F8,   F9,  F10,  F11,  F12, TRNS, TRNS, \
         CAPS, VOLD,   UP, VOLU, MUTE, TRNS, TRNS,   UP, PGUP, PGDN, PSCR, SLCK, PAUS, TRNS,       \
-        TRNS, LEFT, DOWN, RGHT, MPLY, TRNS, LEFT, DOWN, RGHT, TRNS, TRNS, TRNS, TRNS, TRNS,       \
+        TRNS, LEFT, DOWN, RGHT, MPLY,  GRV, LEFT, DOWN, RGHT, TRNS, TRNS, TRNS, TRNS, TRNS,       \
         TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, \
         TRNS, TRNS, TRNS,                   TRNS,                   TRNS, TRNS, TRNS, TRNS),
 };
